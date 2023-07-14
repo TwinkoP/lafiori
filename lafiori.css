@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Ysabeau+Infant:ital,wght@0,800;1,200;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+    
+}
+#navbar {
+    display:flex;
+    justify-content:  space-evenly;
+    font-size:80px;
+    color:#BD11EC;
+    background-color: #968970;
+ }
+ #navbar a{
+    text-decoration: none;
+   
+     }
+ #navbar a:hover{
+    color:red;
+ }
+img {
+    width: 30%
+ 
+}
+.image1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #080705;
+}
+.image2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #080705;
+}
+.image3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #080705;
+}
+.mainbody{
+    background-color: #ECEBE4;
+}
+/* .allbouquets {
+    
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  */
+
+h1 {
+    display:flex;
+    justify-content: center;
+    font-family:'caprasimo';
+    font-size: 60px;
+    color:#080705;
+    /* background-color: #ECEBE4; */
+}
+
+h2 {
+        display:flex;
+        justify-content: center;
+        font-family:'CYsabeau Infant', cursive;
+        font-size: 50px;
+        color:#080705;
+        /* background-color: #ECEBE4; */
+}        
+h3 {
+    display:flex;
+    justify-content: center;
+    font-family:'CYsabeau Infant', cursive;
+    font-size: 30px;
+    color:#080705;
+}        
+.bouquets  {
+    display:flex;
+    justify-content: space-evenly;
+    font-family:'CYsabeau Infant', cursive;
+    font-size: 30px;
+    color:#080705;
+    }
+.plants {
+        display:flex;
+        justify-content: space-evenly;
+        font-family:'CYsabeau Infant', cursive;
+        font-size: 30px;
+        color:#080705;
+}    
+.prices {
+    display:flex;
+    justify-content: space-evenly;
+    font-family:'CYsabeau Infant', cursive;
+    font-size: 30px;
+    color:#080705;
+}
+.plantprices {
+           display:flex;
+        justify-content: space-evenly;
+        font-family:'CYsabeau Infant', cursive;
+        font-size: 30px;
+        color:#080705;
+}
+#footer {
+    display:flex;
+    text-decoration:blue;
+    justify-content: space-evenly;
+    font-family: 'Arial';
+    font-size: 30px;
+    /* color: #4082c9; */
+    background-color: #ffffff
+
+}
